@@ -9,3 +9,23 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #d2d6db;
+  padding: 5em 0;
+}
+
+.footer-container {
+  display: flex;
+}
+
+h2 ~ p {
+  color: aquamarine;
+}
